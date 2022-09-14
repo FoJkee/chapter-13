@@ -28,6 +28,7 @@ table {
   margin-right: 20px;
   border: thin solid black;
   caption-side: bottom;
+  border-collapse: collapse;
 }
 
 td,
@@ -38,4 +39,16 @@ th {
 caption {
   font-style: italic;
   padding-top: 8px;
+}
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+th {
+  background-color: #cc6600;
+}
+.cellcolor {
+  background-color: #fcba7a;
 }
